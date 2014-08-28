@@ -14,7 +14,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.border.Border;
 
-import com.lowagie.text.Font;
+//import com.lowagie.text.Font;
 
 /**
  * Collapsible panel for the GUI.
@@ -101,7 +101,7 @@ public class CollapsiblePanel extends JPanel {
 		
 		headerLabel = new JLabel(title);
 		headerLabel.setCursor(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR));
-		headerLabel.setFont(headerLabel.getFont().deriveFont(Font.BOLD));
+		//headerLabel.setFont(headerLabel.getFont().deriveFont(Font.BOLD));
 		super.add(headerLabel, BorderLayout.NORTH);
 		
 		this.setWrappedComponent(component);

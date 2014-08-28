@@ -54,8 +54,8 @@
     <condition property="lib.jersey-json.path" value="${jersey.path}/lib/jersey-json-${jersey.version}.jar">
         <available file="${jersey.path}/lib/jersey-json-${jersey.version}.jar" />
     </condition>
-    <condition property="lib.jersey-multipart.path" value="${jersey.path}/contribs/jersey-multipart-${jersey.version}.jar">
-        <available file="${jersey.path}/contribs/jersey-multipart-${jersey.version}.jar" />
+    <condition property="lib.jersey-multipart.path" value="${jersey.path}/lib/jersey-multipart-${jersey.version}.jar">
+        <available file="${jersey.path}/lib/jersey-multipart-${jersey.version}.jar" />
     </condition>
 
     <!-- Set up the default classpath -->
